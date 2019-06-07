@@ -1,5 +1,5 @@
 #
-# Shiny Application and Reproducible Pitch
+# Shiny App and Reproducible Pitch
 #
 
 library(shiny)

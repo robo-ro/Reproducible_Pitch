@@ -4,7 +4,7 @@ data(GaltonFamilies)
 library(dplyr)
 library(ggplot2)
 
-# 1st step: pass inches to cm
+# 1st step: Pass inches to cm
 gf <- GaltonFamilies
 gf <- gf %>% mutate(father=father*2.54,
                     mother=mother*2.54,
